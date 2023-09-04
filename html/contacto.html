@@ -44,16 +44,57 @@
         </div>         
       </header>
 
-     <!-- inicia el footer -->
+      <!-- Inicia el main -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">                    
+                    <div id="formulario" > 
+                        <h2 class="text-center">Contacto</h2>
+                        <p class="text-center">Si deseas comunicarte conmigo, envíame un correo electrónico y te estaré responiendo los más pronto que me sea posible.</p>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Escriba su mensaje aquí...</label>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text">Nombre(s)</span>
+                            <input type="text" aria-label="First name" class="form-control">                            
+                          </div>
+                        <div class="input-group">
+                            <span class="input-group-text">Apellido(s)</span>
+                            <input type="text" aria-label="Last name" class="form-control" id="apellido">                                                        
+                          </div>
+                        <div class="input-group">                            
+                            <span class="input-group-text">Correo electrónico</span>
+                            <input type="email" aria-label="First name" class="form-control">
+                        </div>                                                  
+                        <button class="btn btn-outline-dark border-1" type="button" id="button-addon2">Enviar</button>                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </main>  
+
+    <!-- inicia el footer -->
     <footer>
-      <div class="container">
-        <div class="row">
-          <p class="text-center fw-lighter">Florencia, Caquetá. CO.</p>
-          <p class="text-center">- Software: Producción & Creatividad -</p>
-          <p class="text-center">S:P.C.  (2023)</p>
+      <div class="container">        
+        <div class="row">          
+          <div class="col text-start">
+            <div class="redes text-center">            
+              <a class="text-decoration-none" href="#"> <ion-icon name="logo-whatsapp"></ion-icon> </a>
+              <a class="text-decoration-none" href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+              <a class="text-decoration-none" href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+            </div>
+            <p class="text-center fw-lighter">Florencia, Caquetá. CO.</p>
+            <p class="text-center text-center">- Software: Producción & Creatividad -</p>
+            <p class="text-center">S:P.C.  (2023)</p>
+          </div>
+          
         </div>        
       </div>
     </footer>
     <script src="./js/bootstrap.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

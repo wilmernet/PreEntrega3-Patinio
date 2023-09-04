@@ -74,6 +74,12 @@ footer {
   padding: 40px;
   background-color: black;
 }
+footer .redes {
+  font-size: 30px;
+}
+footer .redes a {
+  color: #fff;
+}
 
 #esta-soy .col {
   padding: 40px;
@@ -99,6 +105,18 @@ footer {
   color: rgb(80, 76, 76);
 }
 
+#trabajos-por-sustentar .titulo-seccion {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 30px;
+}
+#trabajos-por-sustentar .container {
+  margin: 20px;
+}
+#trabajos-por-sustentar .container a {
+  color: rgb(80, 76, 76);
+}
+
 #articulos-publicaciones .titulo-seccion {
   background-color: #6c757d;
   color: #fff;
@@ -109,6 +127,36 @@ footer {
 }
 #articulos-publicaciones .container a {
   color: rgb(80, 76, 76);
+}
+
+#coinvestigadores .container {
+  margin-top: 20px;
+}
+#coinvestigadores .col-12 .card {
+  background-color: #b7bec4;
+  border-radius: 15px;
+}
+#coinvestigadores .col-12 .card img {
+  margin: 10px;
+  border-radius: 180px;
+}
+
+#formulario {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #6c757d;
+  color: #fff;
+}
+#formulario .form-floating {
+  margin-top: 20px;
+}
+#formulario .input-group {
+  margin-top: 20px;
+}
+#formulario .btn {
+  margin-top: 10px;
+  border: solid #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

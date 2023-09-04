@@ -88,7 +88,13 @@ footer{
     color: white;
     font-size: 0.7rem;
     padding: 40px; 
-    background-color: black;   
+    background-color: black;  
+    .redes{        
+        font-size: 30px;
+        a{            
+            color: #fff;
+        }
+    } 
 }
 
 // pág Acerca de
@@ -123,6 +129,20 @@ footer{
     }
     
 }
+#trabajos-por-sustentar{
+    .titulo-seccion{
+        background-color: #6c757d;
+        color: #fff;
+        padding: 30px;
+    }
+    .container{
+        margin: 20px;
+        a{
+            color: rgb(80, 76, 76);
+        }
+    }
+    
+}
 #articulos-publicaciones{
     .titulo-seccion{
         background-color: #6c757d;
@@ -136,4 +156,41 @@ footer{
         }
     }
     
+}
+
+//pag equipo de trabajo
+#coinvestigadores{    
+    .container{
+        margin-top: 20px;               
+    }
+    .col-12{        
+        .card{                        
+            background-color: #b7bec4;            
+            border-radius: 15px;
+            img{
+                margin: 10px;  
+                border-radius: 180px;                
+            }
+        }
+    }
+}
+
+// pág de Contacto
+
+#formulario{    
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #6c757d;
+    color: #fff;
+    .form-floating{
+        margin-top: 20px;
+    }
+    .input-group{
+        margin-top: 20px;        
+    }
+    .btn{            
+        margin-top: 10px;
+        border: solid #fff;
+    }
 }
