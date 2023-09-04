@@ -1,4 +1,4 @@
-
+//estilo de todas las páginas
 header{
     .superior p{
         font-size: 3rem;
@@ -22,6 +22,46 @@ header{
         color: #000;    
         text-align: right;
     }    
+        
+}
+
+
+footer{
+    color: white;
+    font-size: 0.7rem;
+    padding: 40px; 
+    background-color: black;  
+    .redes{        
+        font-size: 30px;
+        a{            
+            color: #fff;
+        }
+    } 
+}
+
+// pág index
+
+header{
+    .name-index:not(.animame) {        
+        left:207px;
+        top:57px;
+      }      
+    @keyframes animacion {
+        from { }
+        to {
+          /* probar propiedades */
+          transform: skewY(25deg)
+        }
+      } /* configuracion inicial */
+    .animame {
+         animation: animacion 1s linear 3s infinite alternate;
+    }      
+
+    /*.name-index{        
+        background-color: blue;
+        transform: rotateX(120deg) translate(-50%, -50%);
+    }
+    */
 }
 
 main{
@@ -82,19 +122,6 @@ aside{
             }   
         }        
     }        
-}
-
-footer{
-    color: white;
-    font-size: 0.7rem;
-    padding: 40px; 
-    background-color: black;  
-    .redes{        
-        font-size: 30px;
-        a{            
-            color: #fff;
-        }
-    } 
 }
 
 // pág Acerca de
@@ -167,10 +194,13 @@ footer{
         .card{                        
             background-color: #b7bec4;            
             border-radius: 15px;
-            img{
-                margin: 10px;  
-                border-radius: 180px;                
+            .col-md-4{
+                img{
+                    margin: 10px;  
+                    border-radius: 180px;                
+                }
             }
+            
         }
     }
 }
