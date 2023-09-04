@@ -1,43 +1,6 @@
-//estilo de todas las páginas
-header{
-    .superior p{
-        font-size: 3rem;
-        font-weight: bold;
-        width: 50vw;
-    }
-    
-    .last-name{
-        position: relative;
-        top: -30px;    
-    }
-    
-    .capital{
-        font-size: 3.5rem;
-        border: solid;
-        position: relative;
-        top: -4px;
-        left: 1px;
-        padding: 18px 3px 0px 3px;    
-        background-color: #fff;
-        color: #000;    
-        text-align: right;
-    }    
-        
-}
+@import './componentes/header';
+@import './componentes/footer';
 
-
-footer{
-    color: white;
-    font-size: 0.7rem;
-    padding: 40px; 
-    background-color: black;  
-    .redes{        
-        font-size: 30px;
-        a{            
-            color: #fff;
-        }
-    } 
-}
 
 // pág index
 
@@ -93,11 +56,12 @@ main{
             background-color: gray;
             .card{
                 margin: 20px;
-                img{
-                    width: 100px;
-                    height: 100px;
-                    justify-content: center;
+                .iconos-productos{  
+                    margin-top: 30px;                  
+                    font-size: 60px;
+                    color: rgb(77, 76, 76);
                 }
+                
             }
         }  
     } 
@@ -127,8 +91,15 @@ aside{
 // pág Acerca de
 
 #esta-soy{
+    margin-top: 15px;
     .col{
         padding: 40px;
+    }
+    img{
+        margin: 30px;
+        max-height: 50vh;
+        border-radius: 300px;  
+        box-shadow: -2px 5px 25px #888888;
     }
     
 }

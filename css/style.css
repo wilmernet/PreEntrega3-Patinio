@@ -83,10 +83,10 @@ main #productos .row {
 main #productos .row .card {
   margin: 20px;
 }
-main #productos .row .card img {
-  width: 100px;
-  height: 100px;
-  justify-content: center;
+main #productos .row .card .iconos-productos {
+  margin-top: 30px;
+  font-size: 60px;
+  color: rgb(77, 76, 76);
 }
 main #intereses-img .carousel-item img {
   max-height: 100vh;
@@ -103,8 +103,17 @@ aside .btn a:hover {
   color: rgb(239, 239, 234);
 }
 
+#esta-soy {
+  margin-top: 15px;
+}
 #esta-soy .col {
   padding: 40px;
+}
+#esta-soy img {
+  margin: 30px;
+  max-height: 50vh;
+  border-radius: 300px;
+  box-shadow: -2px 5px 25px #888888;
 }
 
 #frases-inspiran {

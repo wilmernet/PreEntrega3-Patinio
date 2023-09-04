@@ -1,0 +1,25 @@
+header{
+    .superior p{
+        font-size: 3rem;
+        font-weight: bold;
+        width: 50vw;
+    }
+    
+    .last-name{
+        position: relative;
+        top: -30px;    
+    }
+    
+    .capital{
+        font-size: 3.5rem;
+        border: solid;
+        position: relative;
+        top: -4px;
+        left: 1px;
+        padding: 18px 3px 0px 3px;    
+        background-color: #fff;
+        color: #000;    
+        text-align: right;
+    }    
+        
+}
