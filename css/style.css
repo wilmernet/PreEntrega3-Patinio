@@ -87,10 +87,27 @@ footer {
   margin: 5px;
 }
 
+#trabajos-de-grado .titulo-seccion {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 30px;
+}
 #trabajos-de-grado .container {
   margin: 20px;
 }
 #trabajos-de-grado .container a {
+  color: rgb(80, 76, 76);
+}
+
+#articulos-publicaciones .titulo-seccion {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 30px;
+}
+#articulos-publicaciones .container {
+  margin: 20px;
+}
+#articulos-publicaciones .container a {
   color: rgb(80, 76, 76);
 }
 
