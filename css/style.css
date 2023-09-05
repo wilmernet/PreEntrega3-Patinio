@@ -32,6 +32,68 @@ footer .redes a {
   color: #fff;
 }
 
+.titulo-seccion {
+  background-color: rgb(128, 128, 128);
+  color: #fff;
+  padding: 30px;
+}
+
+#esta-soy .row {
+  margin-top: 30px;
+}
+#esta-soy img {
+  margin: 30px;
+  max-height: 30vh;
+  border-radius: 300px;
+  box-shadow: -2px 5px 25px #888888;
+}
+
+#frases-inspiran {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#frases-inspiran .card {
+  margin: 5px;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+a {
+  color: rgb(80, 76, 76);
+}
+
+#formulario {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #6c757d;
+  color: #fff;
+}
+#formulario .form-floating {
+  margin-top: 20px;
+}
+#formulario .input-group {
+  margin-top: 20px;
+}
+#formulario .btn {
+  margin-top: 10px;
+  border: solid #fff;
+}
+
+#coinvestigadores .container {
+  margin-top: 20px;
+}
+#coinvestigadores .col-12 .card {
+  background-color: #b7bec4;
+  border-radius: 15px;
+}
+#coinvestigadores .col-12 .card .col-md-4 img {
+  margin: 10px;
+  border-radius: 180px;
+}
+
 main #prologo button {
   border: solid white;
   color: white;
@@ -63,6 +125,7 @@ main #productos .row {
   background-color: rgb(128, 128, 128);
 }
 main #productos .row .card {
+  background-color: #b7bec4;
   margin: 20px;
 }
 main #productos .row .card .iconos-productos {
@@ -83,93 +146,6 @@ aside .btn a {
 }
 aside .btn a:hover {
   color: rgb(239, 239, 234);
-}
-
-#esta-soy {
-  margin-top: 15px;
-}
-#esta-soy .col {
-  padding: 40px;
-}
-#esta-soy img {
-  margin: 30px;
-  max-height: 50vh;
-  border-radius: 300px;
-  box-shadow: -2px 5px 25px #888888;
-}
-
-#frases-inspiran {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-#frases-inspiran .card {
-  margin: 5px;
-}
-
-.titulo {
-  background-color: rgb(128, 128, 128);
-  color: #fff;
-  padding: 30px;
-}
-
-#trabajos-de-grado .container {
-  margin: 20px;
-}
-#trabajos-de-grado .container a {
-  color: rgb(80, 76, 76);
-}
-
-.titulo-seccion {
-  background-color: rgb(128, 128, 128);
-  color: #fff;
-  padding: 30px;
-}
-
-#trabajos-por-sustentar .container {
-  margin: 20px;
-}
-#trabajos-por-sustentar .container a {
-  color: rgb(80, 76, 76);
-}
-
-#articulos-publicaciones .container {
-  margin: 20px;
-}
-#articulos-publicaciones .container a {
-  color: rgb(80, 76, 76);
-}
-
-#coinvestigadores {
-  margin-top: 30px;
-}
-#coinvestigadores .container {
-  margin-top: 20px;
-}
-#coinvestigadores .col-12 .card {
-  background-color: #b7bec4;
-  border-radius: 15px;
-}
-#coinvestigadores .col-12 .card .col-md-4 img {
-  margin: 10px;
-  border-radius: 180px;
-}
-
-#formulario {
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: #6c757d;
-  color: #fff;
-}
-#formulario .form-floating {
-  margin-top: 20px;
-}
-#formulario .input-group {
-  margin-top: 20px;
-}
-#formulario .btn {
-  margin-top: 10px;
-  border: solid #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
