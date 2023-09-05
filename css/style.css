@@ -32,28 +32,10 @@ footer .redes a {
   color: #fff;
 }
 
-header {
-  /* configuracion inicial */
-  /*.name-index{        
-      background-color: blue;
-      transform: rotateX(120deg) translate(-50%, -50%);
-  }
-  */
+main #prologo button {
+  border: solid white;
+  color: white;
 }
-header .name-index:not(.animame) {
-  left: 207px;
-  top: 57px;
-}
-@keyframes animacion {
-  to {
-    /* probar propiedades */
-    transform: skewY(25deg);
-  }
-}
-header .animame {
-  animation: animacion 1s linear 3s infinite alternate;
-}
-
 main #header-foto {
   position: relative;
   padding: 0;
@@ -78,7 +60,7 @@ main #header-foto .overlay .container, main #header-foto .overlay .row {
 }
 main #productos .row {
   padding: 20px;
-  background-color: gray;
+  background-color: rgb(128, 128, 128);
 }
 main #productos .row .card {
   margin: 20px;
@@ -124,11 +106,12 @@ aside .btn a:hover {
   margin: 5px;
 }
 
-#trabajos-de-grado .titulo-seccion {
-  background-color: #6c757d;
+.titulo {
+  background-color: rgb(128, 128, 128);
   color: #fff;
   padding: 30px;
 }
+
 #trabajos-de-grado .container {
   margin: 20px;
 }
@@ -136,11 +119,12 @@ aside .btn a:hover {
   color: rgb(80, 76, 76);
 }
 
-#trabajos-por-sustentar .titulo-seccion {
-  background-color: #6c757d;
+.titulo-seccion {
+  background-color: rgb(128, 128, 128);
   color: #fff;
   padding: 30px;
 }
+
 #trabajos-por-sustentar .container {
   margin: 20px;
 }
@@ -148,11 +132,6 @@ aside .btn a:hover {
   color: rgb(80, 76, 76);
 }
 
-#articulos-publicaciones .titulo-seccion {
-  background-color: #6c757d;
-  color: #fff;
-  padding: 30px;
-}
 #articulos-publicaciones .container {
   margin: 20px;
 }
@@ -160,6 +139,9 @@ aside .btn a:hover {
   color: rgb(80, 76, 76);
 }
 
+#coinvestigadores {
+  margin-top: 30px;
+}
 #coinvestigadores .container {
   margin-top: 20px;
 }
